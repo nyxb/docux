@@ -4,7 +4,7 @@ export default defineAppConfig({
 
       description: 'The best place to start your documentation.',
 
-      image: 'https://user-images.githubusercontent.com',
+      image: 'https://github.com/nyxb/docux/blob/main/.github/images/docux_repo_picture.png',
 
       socials: {},
 

@@ -1,4 +1,4 @@
-[![Docux]()](https://docux.dev)
+[![Docux](https://github.com/nyxb/docux/blob/main/.github/images/docux_repo_picture.png)](https://docux.dev)
 
 ## Docux
 

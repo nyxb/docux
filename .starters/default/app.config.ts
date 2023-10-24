@@ -2,7 +2,7 @@ export default defineAppConfig({
    docux: {
       title: 'Docux',
       description: 'The best place to start your documentation.',
-      image: 'https://user-images.githubusercontent.com',
+      image: 'https://github.com/nyxb/docux/blob/main/.github/images/docux_repo_picture.png',
       socials: {
          twitter: 'nuxtstudio',
          github: 'nyxb/docux',

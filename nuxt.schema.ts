@@ -30,7 +30,7 @@ export default defineNuxtSchema({
           * @studioIcon dashicons:cover-image
           * @studioInput file
           */
-         image: 'https://user-images.githubusercontent.com',
+         image: 'https://github.com/nyxb/docux/blob/main/.github/images/docux_repo_picture.png',
 
          /**
           * Social links
