@@ -1,6 +1,7 @@
 import { defineTheme } from 'pinceau'
 
 export default defineTheme({
+   // @ts-expect-error is fine
    docux: {
       landing: {
          hero: {

@@ -2,6 +2,7 @@ import { defineTheme } from 'pinceau'
 import theme from '@nuxt-themes/tokens/config'
 
 export default defineTheme({
+   // @ts-expect-error is fine
    temp: {
       color: {
          white: '255, 255, 255',
