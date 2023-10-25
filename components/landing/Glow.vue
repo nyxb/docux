@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { PropType } from 'vue'
 
-// @ts-expect-error is fine
+// @ts-expect-error
 const { isFirefox } = useUserAgent()
 
 const props = defineProps({
@@ -81,30 +81,45 @@ onMounted(() => {
 </template>
 
 <style scoped lang="ts">
-// @ts-expect-error is fine
 css({
   '.glow': {
-    '--beforeBlendMode': (props: any) => typeof props.beforeBlendMode === 'string' ? props.beforeBlendMode : props.beforeBlendMode.light,
-    '--afterBlendMode': (props: any) => typeof props.afterBlendMode === 'string' ? props.afterBlendMode : props.afterBlendMode.light,
-    '--mask-gradient': (props: any) => typeof props.maskGradient === 'string' ? props.maskGradient : props.maskGradient.light,
-    '--gradient': (props: any) => typeof props.gradient === 'string' ? props.gradient : props.gradient.light,
+
+// @ts-expect-error
+'--beforeBlendMode': (props) => typeof props.beforeBlendMode === 'string' ? props.beforeBlendMode : props.beforeBlendMode.light,
+
+// @ts-expect-error
+'--afterBlendMode': (props) => typeof props.afterBlendMode === 'string' ? props.afterBlendMode : props.afterBlendMode.light,
+// @ts-expect-error
+
+    '--mask-gradient': (props) => typeof props.maskGradient === 'string' ? props.maskGradient : props.maskGradient.light,
+
+// @ts-expect-error
+'--gradient': (props) => typeof props.gradient === 'string' ? props.gradient : props.gradient.light,
     '@dark': {
-      '--beforeBlendMode': (props: any) => typeof props.beforeBlendMode === 'string' ? props.beforeBlendMode : props.beforeBlendMode.dark,
-      '--afterBlendMode': (props: any) => typeof props.afterBlendMode === 'string' ? props.afterBlendMode : props.afterBlendMode.dark,
-      '--mask-gradient': (props: any) => typeof props.maskGradient === 'string' ? props.maskGradient : props.maskGradient.dark,
-      '--gradient': (props: any) => typeof props.gradient === 'string' ? props.gradient : props.gradient.dark
+      // @ts-expect-error
+
+      '--beforeBlendMode': (props) => typeof props.beforeBlendMode === 'string' ? props.beforeBlendMode : props.beforeBlendMode.dark,
+      // @ts-expect-error
+
+      '--afterBlendMode': (props) => typeof props.afterBlendMode === 'string' ? props.afterBlendMode : props.afterBlendMode.dark,
+      // @ts-expect-error
+
+      '--mask-gradient': (props) => typeof props.maskGradient === 'string' ? props.maskGradient : props.maskGradient.dark,
+      // @ts-expect-error
+
+      '--gradient': (props) => typeof props.gradient === 'string' ? props.gradient : props.gradient.dark
     },
     pointerEvents: 'none',
     position: 'absolute',
-    top: (props: any) => props.top,
-    insetInlineStart: (props: any) => props.left,
-    insetInlineEnd: (props: any) => props.right,
-    zIndex: (props: any) => props.zIndex,
-    width: (props: any) => props.width,
-    height: (props: any) => props.height,
+    top: (props) => props.top,
+    insetInlineStart: (props) => props.left,
+    insetInlineEnd: (props) => props.right,
+    zIndex: (props) => props.zIndex,
+    width: (props) => props.width,
+    height: (props) => props.height,
     opacity: 0,
     overflow: 'hidden',
-    backgroundImage: (props: any) => props.backgroundImage,
+    backgroundImage: props => props.backgroundImage,
     '&::before, &::after': {
       opacity: 0,
       content: '""',
