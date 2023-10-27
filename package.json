@@ -20,7 +20,7 @@
   ],
   "scripts": {
     "prepare": "nuxi prepare && nuxi prepare .starters/default",
-    "dev": "nuxi dev .starters/default",
+    "dev": "nuxi dev .starters/default --port 3030",
     "build": "nuxi build .starters/default",
     "generate": "nuxi generate .starters/default",
     "preview": "nuxi preview .starters/default",
