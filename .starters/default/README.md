@@ -4,10 +4,10 @@ Starter template for [Docux](https://docux.dev).
 
 ## Clone
 
-Clone the repository (using `nuxi`):
+Clone the repository (using `nyxbi`):
 
 ```bash
-npx nuxi init -t nyxb/docux
+npx nyxbi init -t nyxb/docux
 ```
 
 ## Setup

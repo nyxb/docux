@@ -54,25 +54,25 @@ export default defineNuxtSchema({
             github: '',
             /**
              * Facebook page url
-             * @example https://www.facebook.com/groups/nuxtjs
+             * @example https://www.facebook.com/groups/nyxb
              * @studioIcon simple-icons:facebook
              */
             facebook: '',
             /**
              * Instagram page url
-             * @example https://www.instagram.com/wearenuxt
+             * @example https://www.instagram.com/nyxb_0
              * @studioIcon simple-icons:instagram
              */
             instagram: '',
             /**
              * Instagram page url
-             * @example https://www.youtube.com/@NuxtLabs
+             * @example https://www.youtube.com/@nyxb0
              * @studioIcon simple-icons:youtube
              */
             youtube: '',
             /**
              * Medium page url
-             * @example https://medium.com/nuxt
+             * @example https://medium.com/@nyxb
              * @studioIcon simple-icons:medium
              */
             medium: '',
