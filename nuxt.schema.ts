@@ -42,13 +42,13 @@ export default defineNuxtSchema({
          socials: {
             /**
              * Twitter social handle
-             * @example 'nuxt_js'
+             * @example 'nyxb0'
              * @studioIcon simple-icons:twitter
              */
             twitter: '',
             /**
              * GitHub org or repository
-             * @example 'nuxt/framework'
+             * @example 'nyxb'
              * @studioIcon simple-icons:github
              */
             github: '',

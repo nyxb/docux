@@ -10,7 +10,7 @@ Currently supported social websites are: Twitter, Facebook, Instagram, Youtube, 
 export default defineAppConfig({
    docux: {
       socials: {
-         twitter: 'nuxtstudio',
+         twitter: 'nyxb0',
          github: 'nyxb/docux'
       },
    }
