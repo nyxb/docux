@@ -70,5 +70,5 @@ defineNuxtConfig({
 [volta-src]: https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg
 [volta-href]: https://volta.net/nyxb/docux?utm_source=readme_docux
 
-[nyxb-src](https://nyxb.blog/badges/badge-nyxb.svg)
-[nyxb-href](https://nyxb.nexus)
+[nyxb-src]: https://nyxb.blog/badges/badge-nyxb.svg
+[nyxb-href]: https://nyxb.nexus
