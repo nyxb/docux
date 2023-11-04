@@ -65,17 +65,23 @@ export default defineNuxtSchema({
              */
             instagram: '',
             /**
-             * Instagram page url
+             * YouTube page url
              * @example https://www.youtube.com/@nyxb0
              * @studioIcon simple-icons:youtube
              */
             youtube: '',
-            /**
+             /**
              * Medium page url
              * @example https://medium.com/@nyxb
              * @studioIcon simple-icons:medium
              */
             medium: '',
+            /**
+             * Discord page url
+             * @example https://discord.gg/@nyxb
+             * @studioIcon simple-icons:discord
+             */
+            discord: '',
          },
 
          /**

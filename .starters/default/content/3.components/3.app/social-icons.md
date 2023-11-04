@@ -12,6 +12,8 @@ export default defineAppConfig({
       socials: {
          twitter: 'nyxb0',
          github: 'nyxb/docux'
+         discord: 'https://nyxb.chat',
+         youtube: 'https://youtube.com/nyxb_0',
       },
    }
 })
