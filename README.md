@@ -16,6 +16,12 @@ Docux is the fastest way to create document-driven websites with Vue & Markdown.
 
 ## Start a project with Docux
 
+To get a local copy of the code, use nyxbi cli:
+
+```
+npx nyxbi init -t themes/docux my-app
+```
+
 If you want to add Docux to an existing codebase, you can do so with:
 
 - Install the dependency:
