@@ -2,7 +2,6 @@
   "name": "docux-starter",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
@@ -13,11 +12,11 @@
   "devDependencies": {
     "@nuxt/devtools": "^0.5.5",
     "@nuxtjs/plausible": "^0.2.1",
+    "@nyxb/eslint-config": "^1.0.6",
     "@types/node": "^20.2.5",
     "destr": "^2.0.2",
     "docux": "^1.0.5",
     "eslint": "^8.52.0",
-    "nuxt": "3.5.3",
-    "@nyxb/eslint-config": "^1.0.6"
+    "nuxt": "3.5.3"
   }
 }
