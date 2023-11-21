@@ -1,7 +1,7 @@
 {
   "name": "docux",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "packageManager": "pnpm@8.5.1",
   "license": "MIT",
   "main": "./nuxt.config.ts",
