@@ -25,7 +25,7 @@
     "generate": "nuxi generate .starters/default",
     "preview": "nuxi preview .starters/default",
     "lint": "eslint .",
-    "release": "release-it"
+    "release": "bumping --commit --push --tag && pnpm publish"
   },
   "dependencies": {
     "@nuxt-themes/tokens": "^2.0.0",
