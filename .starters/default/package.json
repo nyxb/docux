@@ -12,7 +12,6 @@
   "devDependencies": {
     "@nuxt/devtools": "^0.5.5",
     "@nuxtjs/plausible": "^0.2.1",
-    "@nyxb/eslint-config": "^1.0.6",
     "@types/node": "^20.2.5",
     "destr": "^2.0.2",
     "docux": "^1.0.5",
