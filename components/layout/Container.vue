@@ -9,6 +9,7 @@ defineProps({
     required: false,
     default: 'div'
   },
+  // @ts-expect-error is fine
   ...variants
 })
 </script>
@@ -37,6 +38,7 @@ css({
         px: '{docux.layout.container.padding}',
       },
       options: {
+         // @ts-expect-error is fine
         default: true
       }
     }
